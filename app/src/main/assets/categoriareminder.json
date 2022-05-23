@@ -1,0 +1,16 @@
+{
+  "categoriareminder": [
+    {
+      "tituloCatReminder": "Personal",
+      "imgCatReminder": "tiempolibre"
+    },
+    {
+      "tituloCatReminder": "Casa",
+      "imgCatReminder": "casa"
+    },
+    {
+      "tituloCatReminder": "Reunion",
+      "imgCatReminder": "reunion"
+    }
+  ]
+}

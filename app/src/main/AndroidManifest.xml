@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abra.timecraft">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UpgradeNoteActivity"
+            android:parentActivityName=".NoteActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AddNoteActivity"
+            android:parentActivityName=".NoteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NoteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ReminderPersonalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".AddReminderPersonalActivity"
+            android:parentActivityName=".ReminderPersonalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddReminderReunionActivity"
+            android:parentActivityName=".ReminderReunionActivity" />
+        <activity
+            android:name=".ReminderReunionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".AddReminderCasaActivity"
+            android:parentActivityName=".ReminderCasaActivity" />
+        <activity
+            android:name=".ReminderCasaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".CategoryReminderSelectedActivity" />
+        <activity
+            android:name=".CategoryReminderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".CategoryTaskActivity"
+            android:label="Tareas" />
+        <activity
+            android:name=".CategorySelectedActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OnboardingActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".StartActvity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

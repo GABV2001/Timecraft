@@ -1,0 +1,19 @@
+{
+  "categoriat": [
+    {
+      "titutloCatTarea": "Trabajo",
+      "imgCatTarea": "trabajo",
+      "itemTarea": "Tareas"
+    },
+    {
+      "titutloCatTarea": "Personal",
+      "imgCatTarea": "personal",
+      "itemTarea": "Tareas"
+    },
+    {
+      "titutloCatTarea": "Estudio",
+      "imgCatTarea": "estudio",
+      "itemTarea": "Tareas"
+    }
+    ]
+}

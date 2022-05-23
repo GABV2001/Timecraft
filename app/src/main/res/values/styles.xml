@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBackgroundLoginRegister</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.Base.Title1" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <!--<item name="android:textAlignment">center</item>-->
+    </style>
+
+    <style name="AppTheme.Base.ButtonPrimary" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/colorBotonsimple</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.Base.ButtonPrimary.secundary" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/colorBotonsimple2</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
+
+
+</resources>

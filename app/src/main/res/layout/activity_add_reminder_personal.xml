@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddReminderPersonalActivity">
+
+    <EditText
+        android:id="@+id/remindePersonaltitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Titulo de Recordatorio"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/reminderPersonalDescripcion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Descripcion"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@id/remindePersonaltitle"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/remindePersonaltitle"
+        app:layout_constraintTop_toBottomOf="@+id/remindePersonaltitle"
+        app:layout_constraintTop_toTopOf="@id/remindePersonaltitle" />
+
+    <EditText
+        android:id="@+id/reminderDateviewPersonal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="Fecha"
+        android:inputType="date"
+        app:layout_constraintEnd_toStartOf="@+id/reminderPersonaltimeview"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reminderPersonalDescripcion" />
+
+    <ImageButton
+        android:id="@+id/showreminderdatepickerPersonal_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/reminderDateviewPersonal"
+        app:layout_constraintEnd_toEndOf="@+id/reminderDateviewPersonal"
+        app:layout_constraintTop_toTopOf="@+id/reminderDateviewPersonal"
+        android:src="@drawable/ic_baseline_date_range_24"
+        android:layout_marginRight="8dp" />
+
+    <EditText
+        android:id="@+id/reminderPersonaltimeview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:ems="10"
+        android:hint="Tiempo"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/reminderDateviewReunion"
+        app:layout_constraintTop_toBottomOf="@+id/reminderPersonalDescripcion" />
+
+    <ImageButton
+        android:id="@+id/showremindertimepickerReminderPersonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/reminderPersonaltimeview"
+        app:layout_constraintEnd_toEndOf="@+id/reminderPersonaltimeview"
+        app:layout_constraintTop_toTopOf="@+id/reminderPersonaltimeview"
+        android:src="@drawable/ic_baseline_access_time_24"
+        android:layout_marginRight="8dp" />
+
+    <Button
+        android:id="@+id/guardarReminderPersonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Guardar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reminderDateviewPersonal" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
